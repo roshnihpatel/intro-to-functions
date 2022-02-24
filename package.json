@@ -10,5 +10,14 @@
     "eslint": "^8.9.0",
     "jest": "^27.5.1",
     "prettier": "2.5.1"
+  },
+  "scripts": {
+    "lint": "eselint challenges",
+    "format": "prettier --write challenges",
+    "format:check": "prettier --check challenges",
+    "test": "jest"
+
+
+
   }
 }
