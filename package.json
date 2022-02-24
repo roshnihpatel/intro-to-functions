@@ -1,0 +1,14 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "first package.JSON file ",
+  "main": "index.js",
+  "repository": "git@github.com:roshnihpatel/intro-to-functions.git",
+  "author": "Roshni Patel",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "prettier": "2.5.1"
+  }
+}
