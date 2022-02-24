@@ -13,7 +13,6 @@ function isEqual(numOne, numTwo) {
   return numOne === numTwo;
 }
 
-
 //test cases
 console.log("is equal(4,4):", isEqual(4, 4), "expected true");
 console.log("is equal(5,4):", isEqual(5, 4), "expected false");
