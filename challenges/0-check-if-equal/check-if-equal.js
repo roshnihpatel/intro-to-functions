@@ -12,7 +12,7 @@ return: boolean
 function isEqual(numOne, numTwo) {
      return numOne === numTwo
 
-}
+}ya
 
 
 //test cases
