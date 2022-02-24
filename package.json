@@ -12,7 +12,7 @@
     "prettier": "2.5.1"
   },
   "scripts": {
-    "lint": "eselint challenges",
+    "lint": "eslint challenges",
     "format": "prettier --write challenges",
     "format:check": "prettier --check challenges",
     "test": "jest"
