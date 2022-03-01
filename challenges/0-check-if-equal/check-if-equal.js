@@ -1,20 +1,32 @@
-/*
-function:
-=========
-name: isEqual
+"use strict"
+/**
+ * function: isEqual
+ * =========
+ * parameters:
+ *  -NUM_ONE: number
+ *  -NUM_TWO: number
+ * return: boolean
+ * 
+ * psuedo code:
+ * 
+ * if NUM_ONE is equal to NUM_TWO
+ *   return true
+ * else 
+ *    return false
+ * end if 
+ * 
+ * @param {number, number} numOne
+ * 
+ * 
+ * 
 
-parameters:
-	- NUM_ONE: number
-	- NUM_TWO: number
+ */
 
-return: boolean
+
+@param {}
 */
 function isEqual(numOne, numTwo) {
   return numOne === numTwo;
 }
+module.exports = isEqual;
 
-//test cases
-console.log("is equal(4,4):", isEqual(4, 4), "expected true");
-console.log("is equal(5,4):", isEqual(5, 4), "expected false");
-console.log("is equal(-4,4):", isEqual(-4, 4), "expected false");
-console.log("is equal(3000,3000):", isEqual(3000, 3000), "expected true");
